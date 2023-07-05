@@ -3,11 +3,12 @@
     <head>
         <title>Django Girls blog</title>
     </head>
+
     <body>
         <header>
             <h1><a href="/">Elyren's Blog</a></h1>
         </header>
-
+        
         {% for post in posts %}
             <article>
                 <time>published: {{ post.published_date }}</time>
